@@ -26,7 +26,7 @@ header {
 	width: 35px;
 	height: 35px;
 	margin-left: 10px;
-    border-radius: 20px;
+   	border-radius: 20px;
 }
 
 .logo-title {
@@ -35,7 +35,7 @@ header {
 }
 
 .logo:hover {
-	color: black;
+	color: tomato;
 	transform: rotate(2deg);
 }
 
@@ -44,7 +44,7 @@ header {
 	border: none;
 	font-size: 20px;
 	padding: 6px 12px;
-	background: #FF6A3D;
+	background: brown;
 	color: white;
 	border-radius: 8px;
 	cursor: pointer;
@@ -66,7 +66,7 @@ li a {
 }
 
 li a:hover {
-	color: black;
+	color: tomato;
 	transform: rotate(2deg);
 }
 
@@ -93,7 +93,7 @@ a {
 .title {
 	font-size: 24px;
 	font-weight: bold;
-    text-align: center;
+    	text-align: center;
 }
 
 .description {
@@ -102,11 +102,28 @@ a {
 	font-weight: bolder;
 }
 
-.img-foto {
-	width: 100%;
-	height: auto;
-	padding: 10px;
-	max-width: 500px;
+.des{
+	justify-content: center;
+	text-align: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	width: 50%;
+	min-height: 300px;
+	max-height: 500px;
+	background: #f7f7f7;
+	color: #222;
+	padding: 70px 0;
+	box-shadow: 2px 5px 5px 1px rgba(0,0,0,0.5);
+}
+.desk{
+	font-size: 18px;
+	font-weight: bolder;
+	margin: 30px;
+}
+.desc{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 50px;
 }
 
 .parallax {
@@ -177,6 +194,10 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
+	.logo-img{
+		width: 30px;
+		height: 30px;
+	}
 	.card {
 		flex-direction: column;
 		gap: 0;
@@ -195,8 +216,9 @@ footer {
 		margin-top: 20px;
 	}
 	
-	.img-foto {
+	.des {
 		padding: 0;
+		justify-content: center;
 	}
 	
 	nav {
