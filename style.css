@@ -97,7 +97,7 @@ a {
 }
 
 .description {
-    text-align: center;
+    	text-align: center;
 	font-size: 28px;
 	font-weight: bolder;
 }
@@ -226,6 +226,7 @@ footer {
 		bottom: 0;
 		width: 100%;
 		background: #49290acb;
+		color: white;
 		z-index: 9;
 	}
 	
